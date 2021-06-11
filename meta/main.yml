@@ -1,0 +1,7 @@
+---
+dependencies:
+  - yum
+  - package
+  - get_url
+  - docker_container
+  

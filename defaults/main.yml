@@ -1,0 +1,4 @@
+---
+system_user: ubuntu
+ansible_user: ubuntu
+path_home_user: '/home/{{ system_user }}'
