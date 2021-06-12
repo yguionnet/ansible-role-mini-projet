@@ -1,0 +1,7 @@
+- name: "Apache installation using Docker"
+  hosts: prod
+  become: true
+  vars:
+    system_user: admin
+  roles:
+    - { role: apache-docker-role }
